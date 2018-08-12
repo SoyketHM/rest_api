@@ -1,0 +1,17 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "Learn rest api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Rest Api"
+  ],
+  "author": "soyket",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
