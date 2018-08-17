@@ -19,9 +19,12 @@ router.get('/:id', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-    res.status(300).json({
-        message: "This is post method.",
-        user
+    user.push({
+        name: req.body.name,
+        email: req.body.email
+    })
+    res.status(201).json({
+        message: "Data Create",
     })
 });
 
